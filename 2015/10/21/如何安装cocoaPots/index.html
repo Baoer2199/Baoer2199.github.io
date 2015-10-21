@@ -5,16 +5,28 @@
   
   <title>如何安装cocoaPots | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
+  <meta name="description" content="##关于如何安装CocoaPods
+1.可以参考这个网页的教程：http://code4app.com/article/cocoapods-install-usage2.按照以下步骤进行安装：$：gem sources --remove https://rubygems.org
+等有反应之后敲入以下命令
+$gem sources -a http://ruby.taobao.org/
+为了验证你的R">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何安装cocoaPots">
 <meta property="og:url" content="http://yoursite.com/2015/10/21/如何安装cocoaPots/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description">
-<meta property="og:updated_time" content="2015-10-21T06:25:07.000Z">
+<meta property="og:description" content="##关于如何安装CocoaPods
+1.可以参考这个网页的教程：http://code4app.com/article/cocoapods-install-usage2.按照以下步骤进行安装：$：gem sources --remove https://rubygems.org
+等有反应之后敲入以下命令
+$gem sources -a http://ruby.taobao.org/
+为了验证你的R">
+<meta property="og:updated_time" content="2015-10-21T07:03:46.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="如何安装cocoaPots">
-<meta name="twitter:description">
+<meta name="twitter:description" content="##关于如何安装CocoaPods
+1.可以参考这个网页的教程：http://code4app.com/article/cocoapods-install-usage2.按照以下步骤进行安装：$：gem sources --remove https://rubygems.org
+等有反应之后敲入以下命令
+$gem sources -a http://ruby.taobao.org/
+为了验证你的R">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -82,11 +94,22 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>##关于如何安装CocoaPods</p>
+<h3 id="1-可以参考这个网页的教程：http://code4app-com/article/cocoapods-install-usage">1.可以参考这个网页的教程：<a href="http://code4app.com/article/cocoapods-install-usage" target="_blank" rel="external">http://code4app.com/article/cocoapods-install-usage</a></h3><h3 id="2-按照以下步骤进行安装：">2.按照以下步骤进行安装：</h3><pre><code>$：gem sources --remove https:<span class="comment">//rubygems.org</span>
+等有反应之后敲入以下命令
+<span class="variable">$gem</span> sources -<span class="tag">a</span> http:<span class="comment">//ruby.taobao.org/</span>
+</code></pre><h4 id="为了验证你的Ruby镜像是并且仅是taobao,可以使用以下命令查看">为了验证你的Ruby镜像是并且仅是taobao,可以使用以下命令查看</h4><pre><code><span class="variable">$gem</span> source -l
+</code></pre><h4 id="只有在终端出现下面的文字才表明你上面的命令式成功的">只有在终端出现下面的文字才表明你上面的命令式成功的</h4><pre><code><span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span> CURRENT SOURCES<span class="keyword">*</span><span class="keyword">*</span><span class="keyword">*</span>
+http://ruby.taobao.org/
+</code></pre><h4 id="上面所有的命令完成之时，在终端上运行">上面所有的命令完成之时，在终端上运行</h4><pre><code>$ sudo gem <span class="keyword">install</span> cocoapods 
+</code></pre><h4 id="这时你就可以使用这个命令来添加想要的第三方库">这时你就可以使用这个命令来添加想要的第三方库</h4><pre><code><span class="variable">$ </span>pod search <span class="constant">AFNetworking</span>
+</code></pre><h4 id="然后在项目中_用vim编辑器打开pot">然后在项目中 用vim编辑器打开pot</h4><pre><code><span class="variable">$ </span>vi pot
+</code></pre><h4 id="将得到的版本号粘贴复制进来_保存退出以后进行安装_也就是键入以下命令">将得到的版本号粘贴复制进来  保存退出以后进行安装  也就是键入以下命令</h4><pre><code>$ pod <span class="keyword">install</span> 
+</code></pre>
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/10/21/如何安装cocoaPots/" data-id="cig0f8blp0002b0eqh2cfti4g" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/10/21/如何安装cocoaPots/" data-id="cig0gnsxu0002q6eqsm0bmtrh" class="article-share-link">Share</a>
       
       
     </footer>
